@@ -1,12 +1,12 @@
 frappe.ui.form.on('Material Request', {
     refresh(frm) {
-        frappe.msgprint('Hello, World!');
+        // frappe.msgprint('Hello, World!');
     },
-    item_type(frm) {
-        if (frm.doc.item_type == "Books") {
+    custom_item_type(frm) {
+        if (frm.doc.custom_item_type == "Books") {
             set_filter_books(frm);
         }
-        if (frm.doc.item_type == "General Items") {
+        if (frm.doc.custom_item_type == "General Items") {
             set_filter_gi(frm);
         }
     },
