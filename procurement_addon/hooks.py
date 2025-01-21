@@ -31,7 +31,7 @@ app_license = "mit"
 doctype_js = {
     "Material Request": "procurement_addon/doctype/material_request/material_request.js",
     "Supplier Quotation": "procurement_addon/doctype/supplier_quotation/supplier_quotation.js",
-    "Request For Quotation": "procurement_addon/doctype/request_for_quotation/request_for_quotation.js"
+    "Request for Quotation": "procurement_addon/doctype/request_for_quotation/request_for_quotation.js"
     }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}   
